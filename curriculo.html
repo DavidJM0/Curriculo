@@ -4,35 +4,85 @@
     <meta charset="UTF-8">
     <title>Currículo - David José</title>
     <link rel="stylesheet" href="sla.css">
+    <script>
+        function js() {
+            window.open("https://developer.mozilla.org/pt-BR/docs/Web/JavaScript")
+        }
+
+        function py() {
+            window.open("https://developer.mozilla.org/pt-BR/docs/Glossary/Python")
+        }
+
+        function html() {
+            window.open("https://developer.mozilla.org/en-US/docs/Web/HTML")
+        }
+
+        function css() {
+            window.open("https://developer.mozilla.org/pt-BR/docs/Web/CSS")
+        }
+        function  github(){
+            window.open("https://github.com/DavidJM0")
+        }
+    </script>
 </head>
 <body>
-    <header>
+    <div class="topo">
         <h1>David José</h1>
-        <p class="proffisao"> Progamador</p>
-        <p class="contato">  mdavid0301@gmail.com  |  (81) 99783-6010  | Jaboatão do Guararapes - PE </p>
-    </header>
+        <p class="profissao"> Programador focado em Back-end </p>
+        <p class="contato">mdavid0301@gmail.com  |  (81) 99783-6010  | Jaboatão do Guararapes - PE </p>
+    </div>
 
-
-        <section>
+    <div class="tudoresto">
+        <div class = "resumopro">
             <h2>   Resumo Profissional </h2>
-            <p> Jovem Progamador, com experiência em, JavaScript, Python, HTML e CSS. Busco oprtunidades para evoluir com desenvolvedor e procuro criar soluções inovadoras </p>
+            <p> Jovem Programador, com experiência em, JavaScript, Python, HTML e CSS.</p>
+        </div>
+    
+        <div>
+            <h2 class="titulohabi">Conhecimentos técnicos </h2>
+                <ul class="habilidades">
+                    <li> 
+                        <button onclick="js()">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s" >
+                            JavaScript
+                        </button>
+                    </li>
 
-        </section>
+                    <li>
+                        <button onclick="py()">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png">
+                            Python
+                        </button>
+                    </li>
+                    <li>
+                        <button onclick="html()">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png">
+                            HTML5
+                        </button>
+                    </li>
+                    <li>
+                        <button onclick="css()">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+                            CSS3
+                        </button>
 
-        <section>
-            <h2> Conhecimentos técnicos </h2>
-            <ul class="habilidades">
-                <li> JavaScript</li>
-                <li> Python</li>
-                <li> HTML5</li>
-                <li> CSS3</li>
-            </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <footer class="rodape">
+        <div class="textorodape">
+        <p style="color:blueviolet;">&copy todos os direitos reservados</p>
+        </div>
+        <ul class="git">
+            
+                    <li>
+                        <button onclick="github()">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png">
 
-        </section>
-
-
-
-
-
+                        </button>
+                    </li>
+                </ul>
+    </footer>
 </body>
 </html>
