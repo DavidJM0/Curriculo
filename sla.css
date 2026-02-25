@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f1a;
+    color: #e5e7eb;
+    padding: 30px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    background: #1a1a2e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #8b5cf6;
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+}
+
+.profissão {
+    font-size: 18px;
+    color: #c4b5fd;
+    margin: 10px 0;
+}
+
+.contato {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #8b5cf6;
+    border-bottom: 1px solid #2e2e4d;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.7;
+    color: #d1d5db;
+}
+
+.habilidades {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.habilidades li {
+    background: #8b5cf6;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.habilidades li:hover {
+    background: #a78bfa;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.7);
+}
+
+
+
