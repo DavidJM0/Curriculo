@@ -73,11 +73,11 @@ h2 {
     padding-top: 2vw;
     padding-bottom: 2vw;
     box-shadow: 0 0 10px #8b5cf6;
-    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+    max-width: 50vw
 }
 
 button {
